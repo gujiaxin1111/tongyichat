@@ -52,10 +52,13 @@
   header p {
     font-size: 14px;
     opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
   main {
-    flex: 1;
+    flex: 1;0
     overflow: hidden;
     display: flex;
     flex-direction: column;

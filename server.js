@@ -36,7 +36,7 @@ app.post('/api/chat', async (req, res) => {
 
     try {
         const { messages } = req.body;
-
+        console.log('接收到的消息：', messages);
         const completion = await openai.chat.completions.create({
             model: "qwen-plus",
             messages: [
